@@ -32,6 +32,7 @@ model-downloader: submodule mkdir
 models: model-downloader
 	@echo Downloading models
 	@${BUILD_DIR}/go-model-download -out ${MODEL_DIR}
+	# TODO: меняем на сборку своей модели для CoreML
 
 cmd: whisper $(wildcard cmd/*)
 
