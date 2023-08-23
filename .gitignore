@@ -11,8 +11,11 @@
 # Dependency directories (remove the comment below to include it)
 vendor
 build
-models
 
 # Other
 .vscode
-
+models/*
+!models/.gitkeep
+.idea
+*.txt
+.env
