@@ -19,3 +19,4 @@ models/*
 .idea
 *.txt
 .env
+third_party
